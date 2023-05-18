@@ -31,8 +31,8 @@ function MovieCard(props: MovieCard) {
             href={`/movie/${props.id}`}
         >
             <Image
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 src={`https://image.tmdb.org/t/p/original${props.imageURL}`}
                 alt={`Picture of ${props.name}`}
                 roundedTop="lg"
